@@ -1,0 +1,207 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+}
+
+body {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #37FF47;
+}
+
+.top img {
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    box-shadow: 0 0 20px #000000;
+}
+
+.top span {
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.navigation {
+    display: none;
+    flex-direction: column; 
+    align-items: center;
+    list-style: none;
+    padding: 8px;
+    background-color: #454545;
+}
+ 
+.navigation.open {
+    display: block;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.navigation a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+#active {
+	color: #2fff00;
+}
+
+.open a {
+	display: block;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+    font-size: 1.9rem;
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+
+h1 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+h2 { 
+    background-color: #37FF47;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#tree {
+    width: 200px;
+    height: auto;
+}
+
+figure {
+    margin: 20px;
+}
+
+.list li {
+    margin: 1.3rem;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #37FF47;
+    padding: 30px 30px 40px;
+}
+
+.copyright {
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.modifiedDate {
+    font-size: 1.1rem;
+    color: #454545;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.course-card {
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #000000;
+}
+
+
+.completed:hover {
+    background-color: #37ff48d8;
+    transition: 0.5s;
+}
+
+.incomplete:hover {
+    background-color: #7dff37d8;
+    transition: 0.5s;
+}
+
+#certificate p {
+    padding: 10px;
+    text-align: center;
+}
+
+#total-credits {
+    font-weight: bold;
+}
+
+.completed {
+    background-color: #37FF47;
+}
+
+.incomplete {
+    background-color: #7dff37;
+}
+
+#filter-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px;
+}
+
+button {
+    background-color: #37FF47;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #00b018;
+}
+
+#total {
+    font-size: 1.2rem;
+    margin: 15px;
+}

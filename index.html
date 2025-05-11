@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD - 231</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Volodymyr Druchok">
+        <meta name="description" content="WDD - 231 – Web Frontend Development I - Volodymyr Druchok - Student Home Page">
+        <title>WDD - 231 – Web Frontend Development I - Volodymyr Duchok</title>
+        
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/index-large.css">
+
+        <script src="scripts/main.js" defer></script>
+        <script src="scripts/courses.js" defer></script>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    
+    </head>
 <body>
     <header>
-        <h1>WDD - 231 | Volodymyr Druchok</h1>
+        <div class="top">
+        <img id="pfp" src="images/me.webp" alt="Volodymyr Druchok PFP">
+        <span>Volodymyr Duchok</span>
+        <button type="button" id="menu" title="Menu"></button>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" title="Home" id="active">Home</a></li>
+                <li><a href="#" title="Chamber">Chamber</a></li>
+                <li><a href="#" title="Final Project">Final</a></li>
+                <li><a href="https://github.com/v-d-druchok" title="GitHub Profile">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/volodymyr-druchok-2b2156317/" title="LinkedIn">LinkedIn</a></li>
+            </ul>  
+        </nav>
     </header>
+    <main>
+        <h1>Home</h1>
+
+        <section class="list">
+            <h2>Course Work</h2>
+            <ul class="list">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <section class="place">
+            <h2>Alberta, Canada</h2>
+            <figure>
+                <img id="tree" src="images/lodgepole-pines.webp" alt="Lodgepole Pine Trees">
+                <figcaption>Lodgepole Pine Trees</figcaption>
+            </figure>
+        </section>
+
+        <section id="certificate" class="courses">
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div id="filter-buttons">
+                <button id="all-btn">All</button>
+                <button id="wdd-btn">WDD</button>
+                <button id="cse-btn">CSE</button>
+            </div>
+
+            <div id="course-list"></div>
+
+            <p id="total">Total Credits: <span id="total-credits">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+        <p class="modifiedDate" id="lastModified"></p>
+    </footer>
 </body>
 </html>
