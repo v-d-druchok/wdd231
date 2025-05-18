@@ -46,4 +46,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    #bis-cards section img {
+        width: 100%;
+        height: auto;
+    }
 }

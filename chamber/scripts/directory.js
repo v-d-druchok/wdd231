@@ -40,7 +40,7 @@ function displayMembers(members, view = 'grid') {
             <a href="${member.website}" target="_blank">${member.website}</a>
         `;
 
-        card.innerHTML = view === 'grid' ? `<img width='500' height='500' src="${member.image}" alt="${member.name} Logo">${content}` : content;
+        card.innerHTML = view === 'grid' ? `<img width='400' height='400' src="${member.image}" alt="${member.name} Logo">${content}` : content;
 
         cardsContainer.appendChild(card);
     });
