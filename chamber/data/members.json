@@ -1,11 +1,10 @@
-{
-  "companies": [
+[
     {
       "name": "PrairieTech Solutions",
       "address": "101 7 Ave SW, Calgary, AB T2P 0W4",
       "phone": "403-555-1234",
       "website": "https://www.prairietech.ca",
-      "image": "",
+      "image": "pts-logo.png",
       "membership_level": 3
     },
     {
@@ -13,7 +12,7 @@
       "address": "2200 Crowchild Trail NW, Calgary, AB T2M 4N7",
       "phone": "403-555-5678",
       "website": "https://www.rrrobotics.ca",
-      "image": "",
+      "image": "rrr-logo.jpg",
       "membership_level": 2
     },
     {
@@ -21,7 +20,7 @@
       "address": "33 Heritage Dr SE, Calgary, AB T2H 1N1",
       "phone": "403-555-9012",
       "website": "https://www.foothillscreative.ca",
-      "image": "",
+      "image": "fcs-logo.jpg",
       "membership_level": 1
     },
     {
@@ -29,7 +28,7 @@
       "address": "500 5 Ave SW, Calgary, AB T2P 3L5",
       "phone": "403-555-3456",
       "website": "https://www.chinookdata.com",
-      "image": "",
+      "image": "cds-logo.jpg",
       "membership_level": 2
     },
     {
@@ -37,7 +36,7 @@
       "address": "845 4 St SE, Calgary, AB T2G 1P2",
       "phone": "403-555-7890",
       "website": "https://www.stampedemedia.ca",
-      "image": "",
+      "image": "smg-logo.jpg",
       "membership_level": 3
     },
     {
@@ -45,7 +44,7 @@
       "address": "120 9 Ave SE, Calgary, AB T2G 0P3",
       "phone": "403-555-2345",
       "website": "https://www.bowriveranalytics.ca",
-      "image": "",
+      "image": "bra-logo.jpg",
       "membership_level": 2
     },
     {
@@ -53,8 +52,7 @@
       "address": "200 Barclay Parade SW, Calgary, AB T2P 4R5",
       "phone": "403-555-6789",
       "website": "https://www.mapleinnovations.ca",
-      "image": "",
+      "image": "mli-logo.jpg",
       "membership_level": 1
     }
-  ]
-}
+]

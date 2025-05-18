@@ -20,7 +20,7 @@
         <link rel="icon" href="favicon.ico">
 
         <script src="scripts/main.js" defer></script>
-        <script src="scripts/" defer></script>
+        <script src="scripts/directory.js" defer></script>
     
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,8 +49,18 @@
     </nav>
 
     <main>
+        <h1 class="page-title">Business Directory</h1>
 
+        <section aria-labelledby="directory-title">
+            <div class="layout-select">
+                <button id="grid">⊞ Grid</button>
+                <button id="list">☳ List</button>
+            </div>
+
+            <div id="cards"></div>
+        </section>
     </main>
+
     <footer>
         <div id="contact">
             <p>Clagary Chamber of Commerce</p>
