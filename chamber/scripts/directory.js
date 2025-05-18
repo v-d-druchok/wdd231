@@ -1,6 +1,6 @@
-const url = 'https://v-i-druchok.github.io/wdd231/chamber/data/members.json';
+const url = 'https://v-d-druchok.github.io/wdd231/chamber/data/members.json';
 
-const cardsContainer = document.querySelector('#cards');
+const cardsContainer = document.querySelector('#bis-cards');
 const gridButton = document.querySelector('#grid');
 const listButton = document.querySelector('#list');
 
@@ -8,19 +8,22 @@ let allMembers = [];
 
 async function getMembers() {
     try {
-        const response = await fetch(url);
+        const responce = await fetch(url);
 
-        if (!response.ok) {
+        if (!responce.ok) {
             throw new Error('Failed to fetch member data');
         }
 
-        const members = await response.json();
+        const members = await responce.json();
         allMembers = members;
+
         displayMembers(allMembers, 'grid');
+
+        
     } catch (error) {
         console.error('Error fetching data:', error);
     }
-}
+}   
 
 function displayMembers(members, view = 'grid') {
     cardsContainer.innerHTML = '';
@@ -28,7 +31,7 @@ function displayMembers(members, view = 'grid') {
 
     members.forEach(member => {
         const card = document.createElement('section');
-        card.classList.add('member-card', view);
+        card.classList.add('member-sec-card', view);
         
         const content = `
             <h2>${member.name}</h2>
@@ -43,7 +46,7 @@ function displayMembers(members, view = 'grid') {
     });
 }
 
-document.querySelector('.layout-select').addEventListener('click', (e) => {
+document.querySelector('.select-layout').addEventListener('click', (e) => {
     if (e.target.id === 'grid' || e.target.id === 'list') {
         displayMembers(allMembers, e.target.id);
     }

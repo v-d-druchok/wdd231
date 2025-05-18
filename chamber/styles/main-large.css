@@ -41,4 +41,9 @@
     footer div {
         margin-left: 40px;
     }
+
+    #bis-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
