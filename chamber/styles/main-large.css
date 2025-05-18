@@ -1,0 +1,44 @@
+@media (min-width: 800px) {
+	.navigation {
+		display: flex;
+		flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+	}
+
+    nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+
+	nav a {
+		flex: 1 1 100%;
+        display: block;
+
+	}
+
+    #menu {
+		display: none;
+	}
+
+    #header-title {
+        margin-top: 25px;
+        font-size: 40px;
+    }
+
+    header img {
+        margin-top: 0;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    footer div {
+        margin-left: 40px;
+    }
+}

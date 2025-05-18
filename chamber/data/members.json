@@ -1,0 +1,60 @@
+{
+  "companies": [
+    {
+      "name": "PrairieTech Solutions",
+      "address": "101 7 Ave SW, Calgary, AB T2P 0W4",
+      "phone": "403-555-1234",
+      "website": "https://www.prairietech.ca",
+      "image": "",
+      "membership_level": 3
+    },
+    {
+      "name": "Rocky Ridge Robotics",
+      "address": "2200 Crowchild Trail NW, Calgary, AB T2M 4N7",
+      "phone": "403-555-5678",
+      "website": "https://www.rrrobotics.ca",
+      "image": "",
+      "membership_level": 2
+    },
+    {
+      "name": "Foothills Creative Studio",
+      "address": "33 Heritage Dr SE, Calgary, AB T2H 1N1",
+      "phone": "403-555-9012",
+      "website": "https://www.foothillscreative.ca",
+      "image": "",
+      "membership_level": 1
+    },
+    {
+      "name": "Chinook Data Systems",
+      "address": "500 5 Ave SW, Calgary, AB T2P 3L5",
+      "phone": "403-555-3456",
+      "website": "https://www.chinookdata.com",
+      "image": "",
+      "membership_level": 2
+    },
+    {
+      "name": "Stampede Media Group",
+      "address": "845 4 St SE, Calgary, AB T2G 1P2",
+      "phone": "403-555-7890",
+      "website": "https://www.stampedemedia.ca",
+      "image": "",
+      "membership_level": 3
+    },
+    {
+      "name": "Bow River Analytics",
+      "address": "120 9 Ave SE, Calgary, AB T2G 0P3",
+      "phone": "403-555-2345",
+      "website": "https://www.bowriveranalytics.ca",
+      "image": "",
+      "membership_level": 2
+    },
+    {
+      "name": "Maple Leaf Innovations",
+      "address": "200 Barclay Parade SW, Calgary, AB T2P 4R5",
+      "phone": "403-555-6789",
+      "website": "https://www.mapleinnovations.ca",
+      "image": "",
+      "membership_level": 1
+    }
+  ]
+}
