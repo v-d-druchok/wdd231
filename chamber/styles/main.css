@@ -130,7 +130,7 @@ main {
     justify-items: center;
 }
 
-#bis-cards section {
+.grid section {
     display: grid;
     justify-items: center;
     margin: 1rem;
@@ -141,9 +141,38 @@ main {
     height: auto;
 }
 
-#bis-cards section img {
+section img {
     box-shadow: 0 0 20px #6a6a6a;
     margin-bottom: 1rem;
     width: 80%;
     height: auto;
+}
+
+div.list section:nth-child(even) {
+    background-color: var(--accent-color);
+}
+
+div.list section {
+    padding: 1rem 0 1rem 1rem;
+}
+
+div.list {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.select-layout button {
+    width: 30%;
+    height: 2rem;
+    background-color: var(--accent-color);
+    margin: 2rem;
+}
+
+button:hover {
+    background-color: #aeffa295;
+}
+
+.select-layout {
+    display: flex;
+    justify-content: center;
 }

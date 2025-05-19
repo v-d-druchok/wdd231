@@ -42,13 +42,21 @@
         margin-left: 40px;
     }
 
-    #bis-cards {
+    div.grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #bis-cards section img {
-        width: 100%;
-        height: auto;
+    div.list section {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    
+    .select-layout button {
+        width: 10%;
+        height: 2rem;
+        background-color: var(--accent-color);
+        margin: 2rem;
     }
 }
