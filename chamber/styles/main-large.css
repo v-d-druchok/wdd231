@@ -59,4 +59,54 @@
         background-color: var(--accent-color);
         margin: 2rem;
     }
+
+    .hero img, .hero {
+        width: 100%;
+        height: auto;
+    }
+    
+    .info-cont,
+    .spotlight-cont {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .info-cont section, 
+    .spotlight-cont section {
+        margin: 10px;
+    }
+
+    .join-btn {
+        margin-top: 30rem;
+    }
+
+    .join-btn a {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .spotlight-cont > div.spotlight {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        flex: 1 1 30%; 
+        min-width: 500px;
+        box-sizing: border-box;
+    }
+
+    .spotlight-cont > div.spotlight img {
+        width: 200px;
+        flex-shrink: 0;
+    }
+
+    .spotlight-cont {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .company-info > * {
+        margin: 10px 0 20px 10px;
+    }
 }
