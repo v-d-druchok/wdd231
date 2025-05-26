@@ -19,7 +19,7 @@ async function loadSpotlights() {
             card.classList.add('spotlight');
 
             card.innerHTML = `
-                <img width='300' height='300' src="${member.image}" alt="${member.name} Logo">
+                <img width='100' height='100' src="${member.image}" alt="${member.name} Logo">
                 <div class="company-info">
                 <h3>${member.name}</h3>
                 <p>${member.address}</p>
