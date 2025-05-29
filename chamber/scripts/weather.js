@@ -48,7 +48,7 @@ function displayCurrentWeather(data) {
     humidity.textContent = `Humidity: ${data.main.humidity}%`;
     sunriseTime.textContent = `Sunrise: ${formatTime(sunrise)}`;
     sunsetTime.textContent = `Sunset: ${formatTime(sunset)}`;
-}
+} 
 
 function displayForecast(data) {
     const Forecasts = [];
