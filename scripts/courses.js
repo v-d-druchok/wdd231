@@ -97,6 +97,33 @@ function displayCourses(filter = 'All') {
 
     const total = filteredCourses.reduce((sum, course) => sum + course.credits, 0);
     totalCredits.textContent = total;
+
+    document.querySelectorAll('.course-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const index = card.getAttribute('data-index');
+            const course = filteredCourses[index];
+            openCourseDialog(course);
+        });
+    });
+}
+
+function openCourseDialog(course) {
+    const dialog = document.getElementById('course-details');
+
+    dialog.innerHTML = `
+        <button id='closeModal'>Ｘ</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+
+    dialog.showModal();
+    dialog.querySelector('#closeModal').addEventListener('click', () => {
+        dialog.close();
+    });
 }
 
 

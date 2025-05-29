@@ -205,3 +205,45 @@ button:hover {
     font-size: 1.2rem;
     margin: 15px;
 }
+
+dialog#course-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    max-width: 600px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    background-color: rgb(163, 255, 163);
+    color: rgb(13, 13, 13);
+}
+
+dialog h2 {
+    margin-top: 2rem;
+}
+
+dialog h3 {
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+}
+
+dialog p {
+    padding: .5rem 0;
+    font-size: 1.1rem;
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+dialog button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 10px 10px;
+    width: auto;
+}

@@ -1,7 +1,6 @@
 const weatherURL = 'https://api.openweathermap.org/data/2.5/weather?lat=51.04&lon=-114.08&appid=156b3e52df985b9feadaacb0fb92d9e1&units=metric';
 const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=51.04&lon=-114.08&appid=156b3e52df985b9feadaacb0fb92d9e1&units=metric';
 
-const weatherIcon = document.querySelector('#w-icon');
 const currentTemp = document.querySelector('#current-temp');
 const weatherDesc = document.querySelector('#weather-description');
 const high = document.querySelector('#high');
@@ -39,13 +38,10 @@ async function fetchWeatherData() {
 
 function displayCurrentWeather(data) {
     const desc = data.weather[0].description;
-    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     const sunrise = new Date(data.sys.sunrise * 1000);
     const sunset = new Date(data.sys.sunset * 1000);
 
     currentTemp.innerHTML = `<strong>${Math.round(data.main.temp)}</strong>&deg; C`;
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
     weatherDesc.textContent = capitalizeWords(desc);
     high.innerHTML = `High: ${Math.round(data.main.temp_max)}&deg;`;
     low.innerHTML = `Low: ${Math.round(data.main.temp_min)}&deg;`;

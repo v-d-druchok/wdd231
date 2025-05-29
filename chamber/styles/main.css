@@ -10,6 +10,10 @@
     
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: "Cormorant Garamond", serif;
 }
@@ -129,7 +133,7 @@ footer p {
 main {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .grid section, .spotlight-cont > div {
@@ -162,8 +166,8 @@ div.list section {
 }
 
 div.list {
-    width: 80vw;
-    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .select-layout button {
@@ -183,6 +187,7 @@ button:hover {
 }
 
 .hero {
+    position: relative;
     grid-column: 1 / -1;
 }
 
@@ -198,7 +203,9 @@ button:hover {
 
 .join-btn {
     position: absolute;
-    margin-top: 10rem;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
     background-color: var(--accent-color);
     padding: 0.7rem;
     box-shadow: 0 0 20px #000000;
