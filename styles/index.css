@@ -233,7 +233,7 @@ dialog h3 {
 
 dialog p {
     padding: .5rem 0;
-    font-size: 1.1rem;
+    font-size: 1.1rem; 
 }
 
 ::backdrop {

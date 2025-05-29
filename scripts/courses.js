@@ -103,7 +103,7 @@ function displayCourses(filter = 'All') {
             const index = card.getAttribute('data-index');
             const course = filteredCourses[index];
             openCourseDialog(course);
-        });
+        }); 
     });
 }
 
