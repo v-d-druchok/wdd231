@@ -27,7 +27,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
     </head>
-<body>
+<body class="join">
     <header>
         <img id="logo" src="images/logo.webp" alt="Site Logo">
 
@@ -48,10 +48,11 @@
         </ul>
     </nav>
 
+    
     <main>
         <h1 class="page-title">Join</h1>
          
-        <div class="main-join">
+        <div class="join-main">
             <form method="get" action="thankyou.html" id="memberForm">
                 <fieldset>
                     <legend>Membership Application Form</legend>
@@ -78,7 +79,7 @@
 
                     <label title="Phone Number">
                         Phone Number:
-                        <input type="telephone" required name="phone" title="Phone Number" autocomplete="tel">
+                        <input type="tel" required name="phone" title="Phone Number" autocomplete="tel">
                     </label>
 
                     <label title="Business/Organization Name">
@@ -138,34 +139,34 @@
             <hr>
 
             <p>Free level of membership. Includes access to all basic events and features.</p>
-            <button type="button" onclick="closeDialog('np-dialog')">Close</button>
+            <button type="button" onclick="closeDialog('np-dialog')">X</button>
         </dialog>
 
         <dialog id="b-dialog">
-            <h3><strong>Bronze Level</strong></h3>
+            <h3 id="bronze"><strong>Bronze Level</strong></h3>
 
             <hr>
 
             <p>Entry-level membership. Includes access to all basic events and features plus the ability to be featured on the directory page of the commerce website as well as access to exclusive member events.</p>
-            <button type="button" onclick="closeDialog('b-dialog')">Close</button>
+            <button type="button" onclick="closeDialog('b-dialog')">X</button>
         </dialog>
 
         <dialog id="s-dialog">
-            <h3><strong>Silver Level</strong></h3>
+            <h3 id="silver"><strong>Silver Level</strong></h3>
 
             <hr>
 
             <p>Mid-level membership. Includes access to all basic events and features plus advertising in the form of being featured on the directory and home pages of our website, access to exclusive member events, and exclusive member training sessions./p>
-            <button type="button" onclick="closeDialog('s-dialog')">Close</button>
+            <button type="button" onclick="closeDialog('s-dialog')">X</button>
         </dialog>
 
         <dialog id="g-dialog">
-            <h3><strong>Gold Level</strong></h3>
+            <h3 id="gold"><strong>Gold Level</strong></h3>
 
             <hr>
 
             <p>High-level membership. Includes access to all basic events and features plus advertising in the form of being featured on the directory and home pages of our website and exclusive sponsor banners at our in-person events, access to exclusive member events, exclusive member training sessions, and early access to the latest information regarding all things commerce.</p>
-            <button type="button" onclick="closeDialog('g-dialog')">Close</button>
+            <button type="button" onclick="closeDialog('g-dialog')">X</button>
         </dialog>
     </main>
 

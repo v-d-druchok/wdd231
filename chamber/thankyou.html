@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta property="og:title" content="Calgary Chamber of Commerce - Home">
-        <meta property="og:description" content="Calgary Chamber of Commerce - Home - BYU-I WDD231 Student Project">
-        <meta property="og:url" content="https://v-d-druchok.github.io/wdd231/chamber/index.html">
+        <meta property="og:title" content="Calgary Chamber of Commerce - Thank You">
+        <meta property="og:description" content="Calgary Chamber of Commerce - Thank You - BYU-I WDD231 Student Project">
+        <meta property="og:url" content="https://v-d-druchok.github.io/wdd231/chamber/thankyou.html">
         <meta property="og:image" content="https://v-d-druchok.github.io/wdd231/chamber/images/">
 
         <meta name="author" content="Volodymyr Druchok">
-        <meta name="description" content="Calgary Chamber of Commerce - Home - BYU-I WDD231 Student Project">
-        <title>Calgary Chamber of Commerce - Home</title>
+        <meta name="description" content="Calgary Chamber of Commerce - Thank You - BYU-I WDD231 Student Project">
+        <title>Calgary Chamber of Commerce - Thank You</title>
 
         <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/main.css">
@@ -20,16 +20,14 @@
         <link rel="icon" href="commerce-yourself.ico">
 
         <script src="scripts/main.js" defer></script>
-        <script src="scripts/home.js" defer></script>
-        <script src="scripts/weather.js" defer></script>
-        <script src="scripts/spotlights.js" defer></script>
+        <script src="scripts/join.js" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
     </head>
-<body>
+<body class="ty">
     <header>
         <img id="logo" src="images/logo.webp" alt="Site Logo">
 
@@ -43,62 +41,26 @@
 
     <nav>
         <ul class="navigation">
-            <li><a href="index.html" title="Home" id="active">Home</a></li>
+            <li><a href="index.html" title="Home">Home</a></li>
             <li><a href="directory.html" title="Directory">Directory</a></li>
             <li><a href="join.html" title="Join">Join</a></li>
             <li><a href="#" title="Discover">Discover</a></li>
         </ul>
     </nav>
 
+    
     <main>
-        <div class="home-main">
-            <div class="hero">
-                <picture>
-                    <source srcset="images/hero-large.webp" media="(min-width: 600px)">
-                    <img src="images/hero-small.webp" alt="Background Image">
-                </picture>
-            </div>
+        <h1 class="page-title">Thank you for joining us, <span id="firstNameTitle"></span>!</h1>
 
-            <div class="join-btn">
-                <a href="join.html">Join Us!</a>
-            </div>
-
-            <h1>Home</h1>
-
-            <div class="info-cont">
-                <section class="current-event">
-                    <h2>Events</h2>
-                </section>
-
-                <section class="weather">
-                    <h2>Current Weather</h2>
-                    <div id="weather-content">
-                        <div id="current-weather-info">
-                            <p id="current-temp"></p>
-                            <p id="weather-description"></p>
-                            <p id="high"></p>
-                            <p id="low"></p>
-                            <p id="humidity"></p>
-                            <p id="sunrise"></p> 
-                            <p id="sunset"></p>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="weather-forecast">
-                    <h2>Weather Forecast</h2>
-                    <p id="today"></p>
-                    <p id="tmrw"></p>
-                    <p id="after-tmrw"></p>
-                </section>
-            </div>
-            
-            <section id="spotlights">
-                <h2>Member Spotlights</h2>
-                <div class="spotlight-cont"></div>
-            </section>
-        </div>  
-   </main>
+        <div class="confirmation">
+            <p><strong>First Name:</strong> <span id="firstName"></span></p>
+            <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Phone Number:</strong> <span id="phone"></span></p>
+            <p><strong>Organization:</strong> <span id="organization"></span></p>
+            <p><strong>Submitted On:</strong> <span id="timestamp"></span></p>
+          </div>
+    </main>
 
     <footer>
         <div id="contact">

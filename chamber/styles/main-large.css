@@ -121,5 +121,9 @@
 
     /* ------------  JOIN & THANK YOU ------------ */
 
+    .join-main {
+        flex-direction: row;
+        justify-content: center;
+    }
     
 }

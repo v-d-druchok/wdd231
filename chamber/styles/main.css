@@ -134,7 +134,7 @@ footer p {
 
 /* ------------  Directory ------------ */
 
-main {
+.directory-main {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr;
@@ -196,6 +196,12 @@ button:hover {
 
 /* ------------  Home ------------ */
 
+.home-main {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
 .hero {
     position: relative;
     grid-column: 1 / -1;
@@ -255,4 +261,199 @@ div.info-cont h2,
 }
 
 /* ------------  JOIN & THANK YOU ------------ */
+
+.join-main {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+h1 {
+    justify-self: center;
+}
+
+#memberForm {
+    width: 100%;
+    max-width: 650px;
+}
+
+fieldset {
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    background-color: #fff;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+input[type="submit"] {
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    padding: .8rem;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #63fa4c;
+    color: var(--secondary-color);
+}
+
+body.join h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+body.join h3 {
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+
+.card {
+    margin: 2rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgb(85, 115, 86);
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeSlideUp 0.8s ease-out both;
+    animation-delay: 0.5s, 0s;
+}
+
+.card button {
+    background-color: var(--accent-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    margin: 20px 0;
+}
+
+.card button:hover {
+    background-color: #63fa4c;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    max-width: 800px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    width: 90%;
+}
+
+
+dialog p {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+#bronze {
+    color: #cd7f32 ;
+}
+
+#silver {
+    color: #c0c0c0;
+}
+
+#gold {
+    color: #d7b542;
+}
+
+dialog button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 10px;
+    width: auto;
+    color: var(--accent-color);
+    background-color: var(--main-color);
+    border: none;
+    transition: 0.3s;
+    font-size: 1.5rem;
+}
+
+dialog button:hover {
+    background-color: var(--main-color);
+    color: #63fa4c;
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2rem;
+    padding: 0 20px;
+}
+
+.confirmation p {
+    font-size: 1.2rem;
+    padding: 10px;
+}
 
