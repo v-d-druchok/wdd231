@@ -1,0 +1,55 @@
+@media (min-width: 800px) {
+	#menu {
+		display: none;
+	}
+
+	.navigation {
+		display: flex;
+		flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+	}
+	
+	nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+    
+	nav a {
+		flex: 1 1 100%;
+        display: block;
+
+	}
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section {
+		width: 98%;
+		height: auto;
+	}
+
+	img {
+		width: 400px;
+		height: auto;
+	}
+	
+	.result {
+		width: 98%;
+	}
+
+	.result p {
+		font-size: 20px;
+	}
+
+	.results section {
+		margin: 40px;
+	}
+}

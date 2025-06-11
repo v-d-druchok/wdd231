@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Volodymyr Druchok">
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Volodymyr Druchok - Final Project - Info">
+    <title>Efficient Training Edge - Info</title>
+    <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/info-large.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/info.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <h1>Tips & Advice</h1>
+        <button type="button" id="menu" title="Menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="info.html" title="General Information" id="active">Info</a></li>
+                <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+            </ul>  
+        </nav>
+   </header> 
+   <main>
+    <section class="one">
+        <div class="heading-container">
+            <h2>What training split should I do as a beginner?</h2>
+            <button class="toggleButton"></button>
+        </div>
+    </section>
+    
+    <section class="two">
+        <div class="heading-container">
+            <h2>How many grams of protein should I eat per day?</h2>
+            <button class="toggleButton"></button>
+        </div>
+        <p class="toggleParagraph hidden">
+            Generally the optimal amount of protein would be 0.7-1 gram per lb of body weight. With a slight exception being that if you are on a cut, you should aim a little higher to prevent muscle loss, with 0.9-1.5 grams per pound of body weight being recommended.
+        </p>
+    </section>
+    
+    <section class="three">
+        <div class="heading-container">
+            <h2>How hard should I go on a bulk?</h2>
+            <button class="toggleButton"></button>
+        </div>
+        <p class="toggleParagraph hidden">
+            Our personal recommendation for anyone out there who's looking to gain as much muscle as possible while limiting fat gain to a minimum would be to go on a lean bulk of about 200 to 400 calories above maintenance.
+        </p>
+    </section>
+
+    <section class="four">
+        <div class="heading-container">
+            <h2>How do I find my maintenance calories?</h2>
+            <button class="toggleButton"></button>
+        </div>
+        <p class="toggleParagraph hidden">
+            The best way to find your caloric maintenance would be to first look up some sort of calculator that does that online. Give it your weight, height, and age, and eat whatever the calories it displays for a week. If after a week you gain a little weight, adjust your calories by a few hundred and eat like that for a week. If you lose a bit of weight after that week, add a couple hundred calories to your diet. Rinse and repeat until your weight stabilizes.
+        </p>
+    </section>
+
+    <div class="result">
+    <h2>What are the type of results that i should expect if i follow all this advice?</h2>
+    <div class="results"></div>
+    <p>This is a one day transformation of a client that followed our advice.</p>
+    </div>
+   </main>
+   <footer>
+        <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+        <p class="modifiedDate" id="lastModified"></p>
+   </footer>
+</body>
+</html>

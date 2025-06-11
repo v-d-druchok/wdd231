@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Volodymyr Druchok">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Volodymyr Druchok - Final Project - Home">
+    <title>Efficient Training Edge - Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main-large.css">
+    <script src="scripts/main.js" defer></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <h1>Efficient Training Edge</h1>
+        <button type="button" id="menu" title="Menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" title="Home" id="active" >Home</a></li>
+                <li><a href="info.html" title="General Information">Info</a></li>
+                <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+            </ul>  
+        </nav>
+   </header> 
+   <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 600px)">
+                <img src="images/hero-small.webp" alt="Background Image">
+            </picture>
+        </div>
+
+        <section>
+            <h2>Welcome!</h2>
+            <p>Welcome to the Efficient Training Edge website, where we might have the answers to any questions that you might have regarding training, nutrition, and lifestyle. And if we don't? Then you can reach out to us personally with any question that you still have after browsing our website by clicking the button below.</p>
+            <button id="contact">Ask!</button>
+        </section>
+
+        <div class="about">
+            <h2>About Us</h2>
+            <p>The Efficient Training Edge website was created with the express purpose of helping as many people reach their goals and dreams in fitness. Whether you are a beginner, an intermediate, or even an advanced person when it comes to fitness, we are sure that we will have a little bit of useful info for all. We are hoping that by visiting this website you will be able to come away from this experience fitter, smarter, and happier than ever, and we are always here to offer assistance to anyone who needs it. We thank you for taking the time to visit our website and hope you enjoy your time here.</p>
+        </div>
+   </main>
+   <footer>
+        <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+        <p class="modifiedDate" id="lastModified"></p>
+   </footer>
+</body>
+</html>

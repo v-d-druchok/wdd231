@@ -1,0 +1,39 @@
+@media (min-width: 800px) {
+	#menu {
+		display: none;
+	}
+
+	.navigation {
+		display: flex;
+		flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+	}
+	
+	nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+
+	nav a {
+		flex: 1 1 100%;
+        display: block;
+
+	}
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+
+    input[type="date"], 
+    select,
+    textarea,
+    input[type="text"],
+    input[type="email"]  
+    {
+        width: 100%;
+        max-width: 500px;
+    }
+
+}
