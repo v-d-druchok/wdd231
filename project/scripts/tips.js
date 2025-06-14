@@ -1,0 +1,1 @@
+const productsURL = 'https:/v-d-druchok.github.io/wdd231/project/data/tips.json';

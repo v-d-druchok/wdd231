@@ -1,0 +1,111 @@
+[
+  {
+    "question": "What training split should I do as a beginner?",
+    "answer": "The answer to that question depends heavily on your goals and how many days a week you can train. Generally, if you're a beginner, training 3 to 4 times a week is more than enough. Our most recommended splits for that schedule are: upper, lower, rest, upper, lower, rest, rest — or upper, rest, lower, rest, full body, rest, rest. Both the standard upper/lower split and the 4-day split with a full body day are solid choices.",
+    "subject": "training",
+    "type": "beginner",
+    "proTip": "Full-body workouts 3x/week (e.g., Mon/Wed/Fri) are also great for total-body progress with minimal time."
+  },
+  {
+    "question": "How many grams of protein should I eat per day?",
+    "answer": "Generally, the optimal amount of protein is 0.7–1 gram per pound of body weight. If you're cutting, aim slightly higher to prevent muscle loss — around 0.9–1.5 grams per pound is recommended.",
+    "subject": "nutrition",
+    "type": "beginner",
+    "proTip": "Make sure your protein sources are high-quality — like eggs, dairy, lean meat, or whey."
+  },
+  {
+    "question": "How hard should I go on a bulk?",
+    "answer": "Our recommendation for gaining muscle while minimizing fat gain is to do a lean bulk — eat about 200 to 400 calories above your maintenance level.",
+    "subject": "nutrition",
+    "type": "intermediate",
+    "proTip": "Aim to gain 0.25–0.5 lb per week; faster than that usually means you're gaining too much fat."
+  },
+  {
+    "question": "How do I find my maintenance calories?",
+    "answer": "The best way to estimate your maintenance calories is to use an online calculator. Enter your weight, height, age, and activity level. Eat the suggested number of calories for a week. If you gain weight, reduce calories slightly. If you lose weight, add a couple hundred. Repeat this process until your weight stabilizes.",
+    "subject": "nutrition",
+    "type": "beginner",
+    "proTip": "Weigh yourself at the same time each day and use a weekly average to track changes."
+  },
+  {
+    "question": "Is fasted cardio better for fat loss?",
+    "answer": "Fasted cardio is not necessarily better for fat loss than fed cardio. What matters most is your total caloric deficit across the day. However, some people find fasted cardio more convenient or appetite-suppressing.",
+    "subject": "training",
+    "type": "intermediate",
+    "proTip": "If fasted cardio makes you feel weak or dizzy, it's okay to eat first — performance matters more."
+  },
+  {
+    "question": "Should I train to failure every set?",
+    "answer": "Training to failure can be beneficial for hypertrophy, but it's not necessary for every set and can increase fatigue. Instead, reserve failure training for the last set of an exercise or use it sparingly.",
+    "subject": "training",
+    "type": "advanced",
+    "proTip": "Most of your sets should stop 1–2 reps before failure to avoid burning out."
+  },
+  {
+    "question": "What are compound exercises and why are they important?",
+    "answer": "Compound exercises involve multiple joints and muscle groups. Examples include squats, deadlifts, and bench press. They are efficient for building strength and muscle mass across the whole body.",
+    "subject": "training",
+    "type": "beginner",
+    "proTip": "Build your workouts around compound lifts, then add isolation work as needed."
+  },
+  {
+    "question": "Can I build muscle while losing fat?",
+    "answer": "Yes, it's possible, especially for beginners or those returning from a training break. This is called body recomposition and typically requires a slight caloric deficit, high protein intake, and proper training.",
+    "subject": "nutrition",
+    "type": "intermediate",
+    "proTip": "Track your strength in the gym — if it’s going up while you’re losing weight, you’re likely gaining muscle too."
+  },
+  {
+    "question": "What is progressive overload?",
+    "answer": "Progressive overload is the gradual increase of stress placed upon the body during training. This can be done by increasing weight, reps, sets, or reducing rest time. It's key for muscle and strength gains.",
+    "subject": "training",
+    "type": "beginner",
+    "proTip": "Keep a training log — even small weekly increases add up over time."
+  },
+  {
+    "question": "How important is sleep for muscle recovery?",
+    "answer": "Sleep is crucial for recovery and muscle growth. Most people need 7–9 hours of quality sleep per night. Growth hormone and muscle repair processes are most active during deep sleep.",
+    "subject": "recovery",
+    "type": "intermediate",
+    "proTip": "Aim for consistent sleep and wake times — it helps recovery and performance more than you think."
+  },
+  {
+    "question": "Should I cut out carbs to lose fat?",
+    "answer": "Carbs are not inherently fattening. What matters most is overall caloric intake. While low-carb diets can work for fat loss, they are not the only way, and carbs fuel training performance.",
+    "subject": "nutrition",
+    "type": "beginner",
+    "proTip": "Keep carbs around your workouts for better energy and recovery."
+  },
+  {
+    "question": "How often should I deload?",
+    "answer": "A deload should be considered every 4–8 weeks of hard training or when fatigue accumulates. Deloads reduce intensity or volume to help recovery and prevent overtraining.",
+    "subject": "recovery",
+    "type": "advanced",
+    "proTip": "If you're feeling run down or your lifts are stalling, a deload can refresh your progress."
+  },
+  {
+    "question": "What is the difference between hypertrophy and strength training?",
+    "answer": "Hypertrophy training focuses on muscle size using moderate reps and volume, while strength training targets maximal force using lower reps and heavier weights. Both can be combined effectively.",
+    "subject": "training",
+    "type": "intermediate",
+    "proTip": "If you care about both, try a mix: use heavy sets early in your workout, then switch to moderate volume."
+  },
+  {
+    "question": "What supplements should I consider?",
+    "answer": "For most people, the only useful supplements are whey protein (for convenience), creatine monohydrate (for performance), and vitamin D (if deficient). Always prioritize whole food first.",
+    "subject": "nutrition",
+    "type": "beginner",
+    "proTip": "Creatine monohydrate is one of the most researched and effective supplements — 5g daily is enough."
+  },
+  {
+    "question": "How do I break through a plateau?",
+    "answer": "To break a plateau, consider increasing training volume, adjusting intensity, improving sleep and nutrition, or changing exercises. Sometimes, just taking a deload week helps too.",
+    "subject": "training",
+    "type": "advanced",
+    "proTip": "Plateaus are often from under-recovery, not under-training. Check your sleep and food first."
+  }
+]
+
+
+
+

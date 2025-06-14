@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:title" content="Efficient Training Edge - Contact">
+        <meta property="og:description" content="Efficient Training Edge - Contact - BYU WDD231 Student Project">
+        <meta property="og:url" content="https://v-d-druchok.github.io/wdd231/finalproject/contact.html">
+        <meta property="og:image" content="https://v-d-druchok.github.io/wdd231/finalproject/images/">
+
+        <meta name="author" content="Volodymyr Druchok">
+        <meta name="description" content="Efficient Training Edge - Contact - BYU WDD231 Student Project">
+        <title>Efficient Training Edge - Contact</title>
+
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/main-large.css">
+
+        <link rel="icon" href="">
+
+        <script src="scripts/main.js" defer></script>
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <div class="site-name">
+            <p id="header">Efficient Training Edge</p>
+            <p id="header-subtitle">Contact Us</p>
+        </div>
+
+        <button type="button" id="menu" title="Menu"></button>
+   </header> 
+
+   <nav id="animated-nav">
+        <ul class="navigation">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="info.html" title="General Information">Info</a></li>
+            <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+        </ul>
+    </nav>
+
+   <main>
+    <form method="get" action="review.html">
+        <fieldset>
+            <label for="topicSelect">*Inquiry Topic</label>
+            <select id="topicSelect" name="topic" required>
+                <option value="" disabled selected>Select a Topic...</option>
+            </select>
+            
+            <div id="extraSelect"></div>
+
+            <label for="question">*Please Write Your Question:</label>
+            <textarea id="question" name="question" placeholder="Your question here..." required></textarea>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe">
+
+            <label for="name">*Email</label>
+            <input type="email" id="email" name="email" placeholder="janedoe@gmail.com" required>
+
+            <label><input id="newsletter" type="checkbox" name="newsletter" value="yes">Subscribe to our mounthly newsletter.</label>
+            
+        </fieldset>
+
+        <input type="submit" value="Ask Question">
+            
+    </form> 
+   </main>
+   <footer>
+        <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
+        <p class="modifiedDate" id="lastModified"></p>
+   </footer>
+</body>
+</html>

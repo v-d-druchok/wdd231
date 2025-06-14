@@ -1,0 +1,118 @@
+/* ----------------- SHARED ----------------- */
+
+:root {
+    --primary-color: #37FF47;
+    --secondary-color: #454545;
+    --accent-color: #00B30F;
+    --text-color: #232323;
+
+    --heading-font: "Special Gothic Condensed One", sans-serif;
+    --paragraph-font: "Cormorant Garamond", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+}
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    background-color: var(--primary-color);
+    padding: 25px;
+    font-family: var(--heading-font);
+}
+
+.site-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+  
+#header-subtitle {
+    font-size: 1.4rem;
+}
+
+#menu {
+    font-size: 2.2rem;
+    border: none;
+    background: none;
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+}
+  
+#menu::before {
+    content: "☰";
+}
+  
+#menu.open::before {
+    content: "✕";
+}
+  
+ul.navigation li a {
+    display: block;
+    padding: 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+ul.navigation {
+    list-style-type: none;
+}
+  
+.navigation a.active {
+    border-bottom: 3px solid var(--primary-color);
+    font-weight: bold;
+}
+  
+nav {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+    font-size: 1.2rem;
+}
+  
+nav ul {
+    overflow: hidden;
+}
+  
+nav.open {
+    grid-template-rows: 1fr;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px;
+    font-size: 1.1rem;
+    text-align: center;
+    min-height: 150px;
+}
+  
+footer p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+/* ----------------- HOME ----------------- */
