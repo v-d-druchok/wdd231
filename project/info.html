@@ -19,6 +19,7 @@
         <link rel="icon" href="">
 
         <script src="scripts/main.js" defer></script>
+        <script src="scripts/tips.js" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,23 +44,35 @@
     </nav>
 
    <main>
-    <div class="training">
-        
-    </div>
+    <section>
+        <h3>Training Tips</h3>
+        <button class="category-toggle" data-target="training">Enlighten me!</button>
+        <div class="training"></div>
+    </section>
 
-    <div class="nutrition">
-        
-    </div>
+    <section>
+        <h3>Nutrition Tips</h3>
+        <button class="category-toggle" data-target="nutrition">Enlighten me!</button>
+        <div class="nutrition"></div>
+    </section>
 
-    <div class="recovery">
-        
-    </div>
-    
+    <section>
+        <h3>Recovery Tips</h3>
+        <button class="category-toggle" data-target="recovery">Enlighten me!</button>
+        <div class="recovery"></div>
+    </section>
    </main>
 
    <footer>
         <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
         <p class="modifiedDate" id="lastModified"></p>
    </footer>
+
+    <div id="modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div id="modal-text">
+            <button id="close">X</button>
+        </div>
+    </div>
+
 </body>
 </html>
