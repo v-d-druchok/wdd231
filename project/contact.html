@@ -43,30 +43,57 @@
         </ul>
     </nav>
 
-   <main>
-    <form method="get" action="review.html">
+   <main class="contact-main">
+    <h1>Ask Us Anything!</h1>
+
+    <form method="get" action="thanks.html" id="askQuestion">
         <fieldset>
-            <label for="topicSelect">*Inquiry Topic</label>
-            <select id="topicSelect" name="topic" required>
-                <option value="" disabled selected>Select a Topic...</option>
-            </select>
-            
+            <label title="Topic">
+                *Inquiry Topic
+                <select id="topicSelect" name="topic" required>
+                    <option value="" disabled selected>Select a Topic...</option>
+                    <option value="training">Training</option>
+                    <option value="nutrition">Nutrition</option>
+                    <option value="recovery">Recovery</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+
             <div id="extraSelect"></div>
 
-            <label for="question">*Please Write Your Question:</label>
-            <textarea id="question" name="question" placeholder="Your question here..." required></textarea>
+            <label title="question">
+                *Ask Away!:
+                <textarea id="question" name="question" placeholder="Your question here..." required></textarea>
+            </label>
 
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Jane Doe">
+            <label title="First Name">
+                *First Name:
+                <input type="text" name="firstName" required title="First Name" autocomplete="given-name">
+            </label>
 
-            <label for="name">*Email</label>
-            <input type="email" id="email" name="email" placeholder="janedoe@gmail.com" required>
+            <label title="Last Name">
+                Last Name:
+                <input type="text" name="lastName" title="Last Name" autocomplete="family-name">
+            </label>
 
-            <label><input id="newsletter" type="checkbox" name="newsletter" value="yes">Subscribe to our mounthly newsletter.</label>
+            <label title="Email Address">
+                *Email:
+                <input type="email" name="email" required title="Email Address" autocomplete="email" placeholder="schizo-corp@yahoo.com">
+            </label>
+
+            <label title="Phone Number">
+                Phone Number:
+                <input type="tel" name="phone" title="Phone Number" autocomplete="tel">
+            </label>
+
+            <label title="Newsletter" class="checkbox-inline">
+                Subscribe to our mounthly newsletter.
+                <input id="newsletter" type="checkbox" name="newsletter" value="yes">
+            </label>
             
         </fieldset>
 
-        <input type="submit" value="Ask Question">
+        <input type="submit" value="Ask!">
             
     </form> 
    </main>

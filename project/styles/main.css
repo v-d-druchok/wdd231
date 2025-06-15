@@ -115,6 +115,16 @@ footer p {
     line-height: 1.5;
 }
 
+.info-main h1,
+.contact-main h1,
+.thanks-main h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #7cfb8730;
+    padding: 1rem 0 1rem 0;
+}
+
 /* ----------------- HOME ----------------- */
 
 /* ----------------- INFO ----------------- */
@@ -215,14 +225,6 @@ footer p {
     font-size: 1.1rem;
 }
 
-.info-main h1 {
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
-    background-color: #7cfb8730;
-    padding: 1rem 0 1rem 0;
-}
-
 .tip-content {
     color: var(--text-color);
     font-size: 1.5rem;
@@ -230,4 +232,126 @@ footer p {
 
 .tip-content > * {
     margin: 1rem 0 1rem 0;
+}
+
+/* ----------------- THANKS & CONTACT ----------------- */
+
+#askQuestion {
+    width: 90%;
+    max-width: 650px;
+    text-align: center;
+} 
+
+fieldset {
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    background-color: #f4fcf1;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.checkbox-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.checkbox-inline input[type="checkbox"] {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+input[type="submit"] {
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    padding: .8rem;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #63fa4c;
+    color: var(--text-color);
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-main > * {
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.thanks-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks-main p {
+    font-size: 1.3rem;
+}
+
+#our-team {
+    margin: 2rem 0 3rem 0;
+}
+
+.thanks-main h2 {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmation > * {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.thanks-con {
+    width: 100vw;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 4rem 0 4rem 0;
+}
+
+.thanks-foot {
+    padding: 4rem 0 4rem 0;
 }

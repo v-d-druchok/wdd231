@@ -19,6 +19,7 @@
         <link rel="icon" href="commerce-yourself.ico">
 
         <script type="module" src="scripts/main.js"></script>
+        <script src="scripts/thanks.js" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,13 +43,23 @@
         </ul>
     </nav>
 
-    <main>
-            <h2>Thanks!</h2>
-            <p>Our team will try thier best to answer your question promptly</p>
-            <p id="total">Questions Asked: <span id="questions"></span></p>
+    <main class="thanks-main">
+        <h1>Thanks!</h1>
+        <p id="our-team">Our team will try thier best to answer your question promptly</p>
+        <main>
+        <div class="thanks-con"> 
+            <h2>Question Info, for <span id="firstName"></span>!</h2>
+
+            <div class="confirmation">
+                <p><strong>Question:</strong> <span id="question"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <p><strong>Submitted On:</strong> <span id="timestamp"></span></p>
+            </div>
+        </div>
+    </main>
     </main>
 
-    <footer>
+    <footer class="thanks-foot">
             <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
             <p class="modifiedDate" id="lastModified"></p>
             <p id="visit-message"></p>
