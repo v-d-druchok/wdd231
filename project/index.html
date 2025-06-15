@@ -7,7 +7,7 @@
         <meta property="og:title" content="Efficient Training Edge - Home">
         <meta property="og:description" content="Efficient Training Edge - Home - BYU WDD231 Student Project">
         <meta property="og:url" content="https://v-d-druchok.github.io/wdd231/finalproject/index.html">
-        <meta property="og:image" content="https://v-d-druchok.github.io/wdd231/finalproject/images/">
+        <meta property="og:image" content="https://v-d-druchok.github.io/wdd231/finalproject/images/hero-small.webp">
 
         <meta name="author" content="Volodymyr Druchok">
         <meta name="description" content="Efficient Training Edge - Home - BYU WDD231 Student Project">
@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/main-large.css">
 
-        <link rel="icon" href=""> 
+        <link rel="icon" href="ete-icon.ico"> 
         
         <script type="module" src="scripts/main.js"></script>
 
@@ -42,15 +42,17 @@
         </ul>
     </nav>
 
-   <main>
+   <main class="home-main">
+        <h1>Home</h1>
         <div class="hero">
             <picture>
                 <source srcset="images/hero-large.webp" media="(min-width: 600px)">
-                <img src="images/hero-small.webp" alt="Background Image">
+                <img src="images/hero-small.webp" alt="Background Image" loading="lazy">
             </picture>
         </div>
 
-        <section>
+
+        <section class="home-sect">
             <h2>Welcome!</h2>
             <p>Welcome to the Efficient Training Edge website, where we might have the answers to any questions that you might have regarding training, nutrition, and lifestyle. And if we don't? Then you can reach out to us personally with any question that you still have after browsing our website by clicking the button below.</p>
             <button id="contact">Ask!</button>
@@ -65,6 +67,7 @@
         <p class="copyright">© <span id="cyear"></span> | Volodymyr Druchok | Alberta, Canada</p>
         <p class="modifiedDate" id="lastModified"></p>
         <p id="visit-message"></p>
+        <a href="attributions.html">Sourses</a>
    </footer>
 </body>
 </html>

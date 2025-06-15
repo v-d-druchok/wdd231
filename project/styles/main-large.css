@@ -41,4 +41,26 @@
         max-width: 800px;
         margin: 2.1rem;
     }
+
+    /* ----------------- HOME ----------------- */
+
+    .hero img {
+        width: 100vw;
+    }
+
+    .home-sect {
+        margin-top: 20rem;
+        width: 70%;
+        height: 35%;
+        background-color: #37ff4880;
+        color: var(--text-color);
+        font-size: 2rem;
+    }
+
+    #contact {
+        font-size: 2rem;
+        width: 6rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
 }

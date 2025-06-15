@@ -115,6 +115,17 @@ footer p {
     line-height: 1.5;
 }
 
+.copyright {
+    padding-bottom: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.modifiedDate {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 3px;
+}
+
 .info-main h1,
 .contact-main h1,
 .thanks-main h1 {
@@ -126,6 +137,57 @@ footer p {
 }
 
 /* ----------------- HOME ----------------- */
+
+.home-main h1{
+    width: 100%;
+    text-align: center;
+    background-color: #7cfb8730;
+    padding: 1rem 0 1rem 0;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img {
+    position: relative;
+    width: 100%;
+}
+
+.home-sect {
+    position: absolute;
+    margin-top: 9rem;
+    background-color: #45454568;
+    color: var(--primary-color);
+    text-align: center;
+    width: 90%;
+    height: 35%;
+}
+
+.home-sect h2 {
+    margin: 1rem 0 1rem 0;
+}
+
+#contact {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    width: 3rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.about {
+    text-align: center;
+    background-color: #74ff7fe2;
+    padding: 1rem 0 2rem 0;
+    color: var(--text-color);
+}
+
+.about > * {
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
 
 /* ----------------- INFO ----------------- */
 
@@ -181,7 +243,6 @@ footer p {
 }
 
 .info-main section {
-    margin-top: 1rem;
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 2rem;  
