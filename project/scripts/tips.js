@@ -44,7 +44,7 @@ function createTipEntry(item) {
     entryDiv.classList.add('tip-entry');
 
     entryDiv.innerHTML = `
-        <h4>${item.question}</h4>
+        <h3>${item.question}</h3>
         <button class="answer-toggle" aria-expanded="false">Show Answer</button>
         <div class="tip-content hidden">
             <p><strong>Subject:</strong> ${item.subject}</p>
@@ -116,8 +116,8 @@ function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-// Final init
-document.addEventListener('DOMContentLoaded', () => {
-    fetchAndDisplayTips();
-    setupCategoryToggles();
-});
+// Export functions for use in main.js
+export {
+    fetchAndDisplayTips,
+    setupCategoryToggles
+};

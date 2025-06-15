@@ -17,9 +17,9 @@
         <link rel="stylesheet" href="styles/main-large.css">
 
         <link rel="icon" href="">
-
-        <script src="scripts/main.js" defer></script>
-        <script src="scripts/tips.js" defer></script>
+ 
+        <script type="module" src="scripts/main.js"></script>
+        <script src="scripts/ui.js" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,23 +43,23 @@
         </ul>
     </nav>
 
-   <main>
+   <main class="info-main">
     <section>
-        <h3>Training Tips</h3>
+        <h2>Training Tips</h2>
         <button class="category-toggle" data-target="training">Enlighten me!</button>
-        <div class="training"></div>
+        <div class="training hidden"></div>
     </section>
 
     <section>
-        <h3>Nutrition Tips</h3>
+        <h2>Nutrition Tips</h2>
         <button class="category-toggle" data-target="nutrition">Enlighten me!</button>
-        <div class="nutrition"></div>
+        <div class="nutrition hidden"></div>
     </section>
 
     <section>
-        <h3>Recovery Tips</h3>
+        <h2>Recovery Tips</h2>
         <button class="category-toggle" data-target="recovery">Enlighten me!</button>
-        <div class="recovery"></div>
+        <div class="recovery hidden"></div>
     </section>
    </main>
 
