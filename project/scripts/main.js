@@ -1,6 +1,8 @@
-import { fetchAndDisplayTips, setupCategoryToggles } from './tips.js';
+import { trackLastVisit } from './visits.js';
+import { initializeUI } from './ui.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetchAndDisplayTips();
-    setupCategoryToggles();
+    trackLastVisit();
+    initializeUI();
 });
+

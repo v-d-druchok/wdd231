@@ -116,8 +116,8 @@ function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-// Export functions for use in main.js
-export {
-    fetchAndDisplayTips,
-    setupCategoryToggles
-};
+// Final init
+document.addEventListener('DOMContentLoaded', () => {
+    fetchAndDisplayTips();
+    setupCategoryToggles();
+});
