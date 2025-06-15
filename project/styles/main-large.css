@@ -28,4 +28,17 @@
     #header-subtitle {
         font-size: 1.8rem;
     }
+
+    /* ----------------- INFO ----------------- */
+
+    .info-main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .info-main section {
+        max-width: 800px;
+        margin: 2.1rem;
+    }
 }

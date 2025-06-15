@@ -214,3 +214,20 @@ footer p {
     border-radius: 5px;
     font-size: 1.1rem;
 }
+
+.info-main h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #7cfb8730;
+    padding: 1rem 0 1rem 0;
+}
+
+.tip-content {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.tip-content > * {
+    margin: 1rem 0 1rem 0;
+}
