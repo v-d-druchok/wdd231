@@ -141,6 +141,10 @@ footer a {
     padding: 1rem 0 1rem 0;
 }
 
+main {
+    background-color: rgba(165, 165, 165, 0.335);
+}
+
 /* ----------------- HOME ----------------- */
 
 .home-main h1{
