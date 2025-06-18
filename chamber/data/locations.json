@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Calgary Tower",
+      "address": "101 9 Ave SW, Calgary, AB T2P 1K1",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/calgary-tower.webp",
+      "description": "Take in breathtaking 360° views of the city and the Rockies from this iconic observation tower in the heart of downtown Calgary."
+    },
+    {
+      "name": "Heritage Park",
+      "address": "1900 Heritage Dr SW, Calgary, AB T2V 2X3",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/heritage-park.webp",
+      "description": "Step back in time at Canada's largest living history museum, where costumed interpreters bring the 1860s to 1950s to life with historic buildings, rides, and exhibits."
+    },
+    {
+      "name": "Gasoline Alley Museum",
+      "address": "1900 Heritage Dr SW, Calgary, AB T2V 2X3",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/gasoline-alley-museum.webp",
+      "description": "Located within Heritage Park, this vibrant museum showcases a stunning collection of vintage vehicles and memorabilia from Alberta's automotive past."
+    },
+    {
+      "name": "TELUS Spark Science Centre",
+      "address": "220 Saint George's Drive Northeast, Calgary, AB T2E 5T2",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/telus-spark-science-centre.webp",
+      "description": "Spark your curiosity at this interactive science museum, featuring hands-on exhibits, live demonstrations, and an immersive dome theatre for all ages."
+    },
+    {
+      "name": "Calgary Central Library",
+      "address": "800 3 St SE, Calgary, AB T2G 2E7",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/central-library.webp",
+      "description": "A modern architectural gem and cultural hub, this award-winning library offers more than books—explore innovative spaces, art installations, and community events."
+    },
+    {
+      "name": "Nose Hill Park",
+      "address": "6465 14 St NW, Calgary, AB T3K 2P6",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/nose-hill-park.webp",
+      "description": "Nose Hill Park is a massive natural park in northwest Calgary with scenic trails, prairie views, and plenty of space for hiking, biking, and dog walking."
+    },
+    {
+      "name": "Prince’s Island Park",
+      "address": "698 Eau Claire Ave SW, Calgary, AB T2P 5N4",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/princes-island-park.webp",
+      "description": "Prince’s Island Park is a scenic downtown island park along the Bow River, perfect for walking, picnics, festivals, and relaxing by the water."
+    },
+    {
+      "name": "Calgary Zoo (Wilder Institute)",
+      "address": "210 St. George's Drive NE, Calgary, AB T2E 7V6",
+      "image": "https://v-d-druchok.github.io/wdd231/chamber/images/calgary-zoo.webp",
+      "description": "Home to animals from around the world, the Calgary Zoo offers immersive habitats, interactive exhibits, and conservation-focused experiences for visitors of all ages."
+    }
+]
