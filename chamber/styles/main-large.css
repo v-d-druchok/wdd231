@@ -125,5 +125,36 @@
         flex-direction: row;
         justify-content: center;
     }
+
+    /* ------------  DISCOVER ------------ */
+
+    #place-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .place-card {
+        margin: 3rem 1.2rem;
+        padding: 1rem;
+    }
+    
+    .place-card h2 {
+        text-align: left;
+    }
+
+    .place-card img {
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    
+    .place-card img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+
+    .place-card address {
+        text-align: left;
+        padding: 10px;
+    }
     
 }

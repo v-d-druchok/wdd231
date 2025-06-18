@@ -1,0 +1,16 @@
+@media only screen and (min-width: 641px) {
+
+    /* ------------  DISCOVER ------------ */
+
+    .place-card {
+        grid-template-areas: 
+            "name name"
+            "image description"
+            "image location"
+            "button button";
+    }
+
+    .place-card h2 {
+        text-align: left;
+    }
+}
